@@ -27,4 +27,8 @@ public class Calculadora {
             System.out.println("Erro: divisão por zero.");
             return 0;
         }
+
+        public double elevarAoQuadrado() {
+            return Math.pow(numero1, 2);
+        }
 }

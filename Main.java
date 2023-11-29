@@ -8,10 +8,12 @@ public class Main {
         double subtracao = calculadora.subtrair();
         double multiplicacao = calculadora.multiplicar();
         double divisao = calculadora.dividir();
+        double quadrado = calculadora.elevarAoQuadrado();
     }
     
     System.out.println("Soma: " + soma);
     System.out.println("Subtração: " + subtracao);
     System.out.println("Multiplicação: " + multiplicacao);
     System.out.println("Divisão: " + divisao);
+    System.out.println("Quadrado do número 1: " + quadrado);
 }
