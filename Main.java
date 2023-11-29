@@ -6,8 +6,10 @@ public class Main {
         // Realizando as operações matemáticas
         double soma = calculadora.somar();
         double subtracao = calculadora.subtrair();
+        double multiplicacao = calculadora.multiplicar();
     }
     
     System.out.println("Soma: " + soma);
     System.out.println("Subtração: " + subtracao);
+    System.out.println("Multiplicação: " + multiplicacao);
 }
