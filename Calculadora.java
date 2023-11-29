@@ -20,4 +20,11 @@ public class Calculadora {
     public double multiplicar() {
         return numero1 * numero2;
     }
+    public double dividir() {
+        if (numero2 != 0) {
+            return numero1 / numero2;
+        } else {
+            System.out.println("Erro: divisão por zero.");
+            return 0;
+        }
 }

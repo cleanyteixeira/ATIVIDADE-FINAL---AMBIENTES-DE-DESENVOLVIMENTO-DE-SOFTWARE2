@@ -7,9 +7,11 @@ public class Main {
         double soma = calculadora.somar();
         double subtracao = calculadora.subtrair();
         double multiplicacao = calculadora.multiplicar();
+        double divisao = calculadora.dividir();
     }
     
     System.out.println("Soma: " + soma);
     System.out.println("Subtração: " + subtracao);
     System.out.println("Multiplicação: " + multiplicacao);
+    System.out.println("Divisão: " + divisao);
 }
